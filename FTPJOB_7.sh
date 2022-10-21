@@ -44,4 +44,10 @@ AllowAll
 <Limit READ WRITE>
 AllowAll
 </Limit>
+</Directory>
+</Anonymous>
 
+>>proftpd.conf
+
+sudo systemctl restart proftpd
+sudo systemctl status proftpd
