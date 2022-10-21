@@ -45,9 +45,6 @@ AllowAll
 AllowAll
 </Limit>
 </Directory>
-</Anonymous>
-
->>proftpd.conf
-
+</Anonymous> >>proftpd.conf
 sudo systemctl restart proftpd
 sudo systemctl status proftpd
